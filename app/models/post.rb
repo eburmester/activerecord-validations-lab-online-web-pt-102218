@@ -1,4 +1,4 @@
 class Post < ActiveRecord::Base
   validates :title, presense: true 
-  validates 
+  validates :content, length: { on: 
 end
